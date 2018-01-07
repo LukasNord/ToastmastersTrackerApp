@@ -1,11 +1,11 @@
-#Toastmasters Tracker App
+# Toastmasters Tracker App
 
 
 Purpose: To track and save data on usage of language during toastmasters. This aims to provide an interface where a given cohort can track student progress over time as it relates to public speaking during Toastmasters.
 
 
 
-##Planning
+## Planning
 
 COHORT SETUP:
 
@@ -29,7 +29,7 @@ SESSION:
 
 
 
-###DOM Setup
+## DOM Setup
 
 COHORT SETUP: 
 
