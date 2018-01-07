@@ -9,13 +9,13 @@ Purpose: To track and save data on usage of language during toastmasters. This a
 
 COHORT SETUP:
 
-[] Input for the Cohort Name and Student Names. This should create a new database table with the cohort's name as the table ID with the students listed out. Submit Button associated with completing this data.
-[] Upon submit, bring a new view that allows for creating an input table for the date and tracked items.  Show history of previously created histories (none will show for first time.)
+*[] Input for the Cohort Name and Student Names. This should create a new database table with the cohort's name as the table ID with the students listed out. Submit Button associated with completing this data.
+*[] Upon submit, bring a new view that allows for creating an input table for the date and tracked items.  Show history of previously created histories (none will show for first time.)
 
 DASHBOARD:
-[] Area that displays history of submitted tracking.
-[] Buttons that show graphical data, could be fun.
-[] Button that generates a field that takes in the current date.  Submittal of this will generate a new session based on the given date.  
+*[] Area that displays history of submitted tracking.
+*[] Buttons that show graphical data, could be fun.
+*[] Button gthat generates a field that takes in the current date.  Submittal of this will generate a new session based on the given date.  
 
 
 SESSION:
