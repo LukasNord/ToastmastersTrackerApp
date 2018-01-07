@@ -37,7 +37,7 @@ SESSION:
 
 COHORT SETUP: 
 
-[] Window that pops up to take in inputs for Cohort name and student names.
+[x] Window that pops up to take in inputs for Cohort name and student names.
 [] Save configuration button. 
 
 COHORT DASHBOARD:

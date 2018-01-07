@@ -13,3 +13,11 @@ app.listen(port, ()=>{
 
 //routes
 
+app.post('/createCohort', function(req,res){
+    console.log(req.body);
+    res.sendStatus(200);
+    
+
+
+
+});

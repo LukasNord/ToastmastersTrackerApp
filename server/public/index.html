@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,19 +16,21 @@
         <h1>Toastmasters Tracking App</h1>
 
         <button id="createCohort"> Create a New Cohort</button>
-        <div id="cohortSetupWindow" class="hidden inFront">
+        <div class="hidden inFront cohortSetupWindow">
             <div>
-                    Cohort Name<input type="text" id="cohortName">
-                    <br>
-                    <button id="addStudent">Add Student</button>
+                <div id="cohortSetupContainer">
+                        Cohort Name<input type="text" id="cohortName">
+                        <br>
+                        <button id="addStudent">Add Student</button>
 
-            </div>
-            <div id="cohortSetupstudentInputs"></div>
-
-
-
-
+                </div>
+                <div id="cohortSetupStudentInputs"></div>
+                <div class="bottomRight">
+                <button id="submitCohort">Submit Cohort</button>
+                <div>
+            <div>
         </div>
+        
         
     </body>
 </html>
