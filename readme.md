@@ -7,13 +7,17 @@ Purpose: To track and save data on usage of language during toastmasters. This a
 
 ## Planning
 
+ADMIN DASHBOARD:
+[] Simple Dashboard that shows all Cohorts in the database. Clicking one should bring you into that Cohort's respective Dashboard.
+[] Button that starts the COHORT SETUP.
+
 COHORT SETUP:
 
 *[] Input for the Cohort Name and Student Names. This should create a new database table with the cohort's name as the table ID with the students listed out. Submit Button associated with completing this data.
 
 *[] Upon submit, bring a new view that allows for creating an input table for the date and tracked items.  Show history of previously created histories (none will show for first time.)
 
-DASHBOARD:
+COHORT DASHBOARD:
 
 *[] Area that displays history of submitted tracking.
 
@@ -36,7 +40,7 @@ COHORT SETUP:
 [] Window that pops up to take in inputs for Cohort name and student names.
 [] Save configuration button. 
 
-DASHBOARD:
+COHORT DASHBOARD:
 [] Shows what Cohort you're working in at the top.  
 [] Shows history by date submitted.
 [] Button that creates a new session, takes in the current date as a parameter.
