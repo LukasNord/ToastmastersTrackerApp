@@ -1,37 +1,85 @@
-h1{
-    color: red;
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
 }
 
-.cohortSetupWindow{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    width:30em;
-    height:18em;
-    margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+
+.siteHeader{
+    background-color:#07aa9e;
+    height: 25%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
     border: 1px solid black;
-    background-color: #F5F5DC;
-    display: flex;
-    flex-direction: column;
+    
 }
-.hidden{
-    display: none; 
-}
-#cohortSetupContainer{
-    display: flex;
-    margin: 10px;
-
-
+.header-label {
+    margin: auto;
+    font-weight: 900;
+    font-size: 52px;
+    padding-bottom: 0px;
+    
+    
+   
 }
 
+.siteHeader_section_left, .siteHeader_section_right {
+    font-size: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 65px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    
+}
 
-.inFront{
-    z-index: 2;
+.siteHeader_section_left:hover, .siteHeader_section_right:hover {
+    background: #34c7bd;
+	color: white;
+	box-shadow: 5px 10px 18px black;
+  
+}
+
+
+.align-right {
+    align-content: right;
+}
+
+
+.createCohortContainer {
+    background-color: #07aa9e;
+    border: solid 1px black;
+    align-items: center;
+    align-content: center;
+    padding: 25px;
+    margin-top: 5px; 
+    font-weight: bold;
+    color: white;
+    
+}
+
+.input_cohort_name{
+    margin-left: 10px;
+    height: 25px;
+    width: 200px;
+    border: 1px solid black;
+    outline:none;
+    font-size: 20px;
+    text-align: center;
+    
 
 }
-#bottomRight{
-   bottom: 0;
-   right: 0;
-   left: 90%;
+.input_cohort_name::placeholder{
+    color: gray;
+    text-align: center;
+}
+.create-cohort-label {
+    font-size: 25px;
+    margin-left: 350px;
+
 }

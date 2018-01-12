@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Toastmasters Language Tracker</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <script src="/vendors/jquery.min.js"></script>
         <script src="scripts/client.js"></script>
         <link rel="stylesheet" href="styles/main.css">
@@ -11,26 +12,95 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
-
-        <h1>Toastmasters Tracking App</h1>
-
-        <button id="createCohort"> Create a New Cohort</button>
-        <div class="hidden inFront cohortSetupWindow">
-            <div>
-                <div id="cohortSetupContainer">
-                        Cohort Name<input type="text" id="cohortName">
-                        <br>
-                        <button id="addStudent">Add Student</button>
-
+        <body>
+            <container>
+                <div id="header" class="siteHeader">
+                    <div class="siteHeader_section_left"> Create New Cohort </div>
+                    <label class="header-label">Toastmasters Tracker App</label>
+                    <div class="siteHeader_section_right">Existing Cohorts</div>
                 </div>
-                <div id="cohortSetupStudentInputs"></div>
-                <div class="bottomRight">
-                <button id="submitCohort">Submit Cohort</button>
-                <div>
-            <div>
-        </div>
-        
-        
-    </body>
+                
+
+                <div class="createCohortContainer"> 
+                    <!-- Container for create Cohort Dialogue -->
+                        <!-- Container for Cohort Creation Dialogue Box -->
+                        <div class"create-cohort-container-contents">
+                         <label class="create-cohort-label">Create a New Cohort</label><input type="text" value="" placeholder="Name of Cohort" class="input_cohort_name">
+                        
+                        </div>
+                    
+                </div>
+                <div id="existingCohortList">
+                    <!-- Display List of Existing Cohorts in the Database -->
+                </div>
+
+
+                <div id="addStudentDialogueBox">
+                    <label>Add Students to Cohort </label>
+                    <button id="addStudentsDialogueBtn">Add a Student</button>
+                    <div id="studentListDialogueBox"></div>
+                </div>
+                </div>   
+                                
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            </container>
+        </body>
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </container>
+</body>
 </html>
