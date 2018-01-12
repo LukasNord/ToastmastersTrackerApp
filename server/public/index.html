@@ -15,18 +15,18 @@
         <body>
             <container>
                 <div id="header" class="siteHeader">
-                    <div class="siteHeader_section_left"> Create New Cohort </div>
+                    <div id="createCohort"class="siteHeader_section_left"> Create New Cohort </div>
                     <label class="header-label">Toastmasters Tracker App</label>
-                    <div class="siteHeader_section_right">Existing Cohorts</div>
+                    <div id="existingCohorts"class="siteHeader_section_right">Existing Cohorts</div>
                 </div>
                 
 
-                <div class="createCohortContainer"> 
+                <div id="createCohortContainer" class="createCohortContainer hidden"> 
                     <!-- Container for create Cohort Dialogue -->
                         <!-- Container for Cohort Creation Dialogue Box -->
                         <div class"create-cohort-container-contents">
                          <label class="create-cohort-label">Create a New Cohort</label><input type="text" value="" placeholder="Name of Cohort" class="input_cohort_name">
-                        
+                         <button id="submitNewCohortBtn" type="button">Submit</button><button id="cancelNewCohortBtn">Cancel</button>
                         </div>
                     
                 </div>
@@ -35,8 +35,8 @@
                 </div>
 
 
-                <div id="addStudentDialogueBox">
-                    <label>Add Students to Cohort </label>
+                <div id="addStudentDialogueBox" class=" add-student-dialogue-box hidden">
+                    <label id="addStudentsLabel">Add Students to</label>
                     <button id="addStudentsDialogueBtn">Add a Student</button>
                     <div id="studentListDialogueBox"></div>
                 </div>

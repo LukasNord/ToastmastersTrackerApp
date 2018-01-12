@@ -44,14 +44,32 @@ body{
 	box-shadow: 5px 10px 18px black;
   
 }
-
-
+.siteHeader_section_left:active, .siteHeader_section_right:active{ 
+    transform: translateY(4px);
+}
 .align-right {
     align-content: right;
+    
 }
 
+#submitNewCohortBtn, #cancelNewCohortBtn{
+    margin-left: 10px;
+    height: 25px;
+    width: 100px;
+    border: 1px solid black;
+    outline:none;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
-.createCohortContainer {
+#submitNewCohortBtn:active, #cancelNewCohortBtn:active{
+    transform: translateY(4px);
+
+}
+
+.createCohortContainer, .add-student-dialogue-box  {
     background-color: #07aa9e;
     border: solid 1px black;
     align-items: center;
@@ -77,9 +95,15 @@ body{
 .input_cohort_name::placeholder{
     color: gray;
     text-align: center;
+    font-size: 16px;
+    padding: auto;
+    margin: 0 auto;
 }
 .create-cohort-label {
-    font-size: 25px;
+    font-size: 24px;
     margin-left: 350px;
 
+}
+.hidden {
+    display: none;
 }
